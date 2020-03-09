@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <script src="js/bootstrap.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/jquery-3.2.1.min.js"></script>
+
+<link href="css/team.css" rel="stylesheet">
+  </head>
+<title>&raquo Team Graphex &laquo</title>
+<link rel="icon" href="/Users/prash/Downloads/Graphex-Club-Web-master/Images/title.jpg" type="image/x-icon">
+<style>
+body,h1 {font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif}
+html {
+  
+  background:linear-gradient( rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55) ), url("/Users/prash/Downloads/Graphex-Club-Web-master/Images/team.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+    background-color: antiquewhite;
+}
+.our-team{
+    padding: 30px 0 40px;
+    background-color: white;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    border:1px dotted #ccc;
+}
+h1{
+    margin-bottom:15px;
+}
+.our-team .pic{
+    display:inline-block;
+    width: 130px;
+    height: 130px;
+    margin-bottom: 50px;
+    /* background-color: #eb1768; */
+    position: relative;
+    z-index: 1;
+}
+.our-team .pic::before{
+    content: "";
+    width: 100%;
+    height: 0;
+    border-radius: 50%;
+    background-color: #eb1768;
+    position: absolute;
+    bottom: 135%;
+    right: 0;
+    left: 0; 
+    transform: scale(3);
+    transition: all 0.3s linear 0s;
+}
+
+.our-team:hover .pic::before{
+    height: 100%;
+}
+.our-team .pic::after{
+    content: "";
+    width: 100%;
+    height: 99%;
+    border-radius: 50%;
+    background: #ee4268;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+.our-team .pic img{
+    width: 100%;
+    height: auto;
+    border-radius: 50%;
+    transform: scale(1);
+    transition: all 0.9s ease 0s;
+}
+.our-team:hover .pic img{
+    box-shadow: 0 0 0 14px #f7f5ec;
+    transform: scale(0.7);
+}
+.our-team .team-content{
+    margin-bottom: 30px;
+}
+.our-team .title{
+    font-size: 22px;
+    font-weight: 700;
+    color: #4e5052;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+}
+.our-team .post{
+    display: block;
+    font-size: 15px;
+    color: #4e5052;
+    text-transform: capitalize; 
+}
+.our-team .social{
+    width: 100%;
+    padding: 0;
+    margin:0;
+    background: #eb1768;
+    position: absolute;
+    bottom: -100px;
+    left: 0;
+    transition: all 0.5s ease 0s;
+
+}
+
+.our-team:hover .social{
+    bottom: 0;
+}
+.our-team .social li{
+ display: inline-block;
+}
+.our-team .social li a{
+    display: block;
+    padding: 10px;
+    font-size: 17px;
+    color: white;transition: all 0.5s ease 0s;
+
+   }
+   .our-team .social li a:hover{
+       color: #eb1768;
+       background: #f7f5ec;
+       text-decoration: none;
+
+   }
+
+.texty {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 80px;
+  color: whitesmoke;
+}
+
+</style>
+<body>
+<div class="html">
+  <div class="row">
+    <div class="col-md-12 text-center">
+        <h1>Our Team</h1>
+    </div>
+</div>
+<div class="row">
+    <div class="col-md-3 col-sm-6">
+        <div class="our-team">
+            <div class="pic">
+                <img src="/Users/prash/Downloads/Graphex-Club-Web-master/Images/dek.png" >
+
+            </div>
+            <div class="team-content">
+                <h3>TEST SUBJECTr</h3>
+                <span class="post"> Web Designer </span>
+            </div>
+            <ul class="social">
+                <li><a href="" class="fa fa-facebook"></a></li>
+                <li><a href="" class="fa fa-twitter"></a></li>
+                <li><a href="" class="fa fa-google-plus"></a></li>
+                <li><a href="www.linkedin.com/in/raj-kumar-web-designer
+" class="fa fa-linkedin"></a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="col-md-3 col-sm-6">
+        <div class="our-team">
+            <div class="pic">
+                <img src="/Users/prash/Downloads/Graphex-Club-Web-master/Images/dek.png" >
+
+            </div>
+            <div class="team-content">
+                <h3>TEST SUBJECTr</h3>
+                <span class="post"> Web Designer </span>
+            </div>
+            <ul class="social">
+                <li><a href="https://www.facebook.com/profile.php?id=100012512077239" class="fa fa-facebook"></a></li>
+                <li><a href="" class="fa fa-twitter"></a></li>
+                <li><a href="" class="fa fa-google-plus"></a></li>
+                <li><a href="www.linkedin.com/in/raj-kumar-web-designer
+" class="fa fa-linkedin"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+        <div class="our-team">
+            <div class="pic">
+                <img src="/Users/prash/Downloads/Graphex-Club-Web-master/Images/dek.png" >
+
+            </div>
+            <div class="team-content">
+                <h3>TEST SUBJECTr</h3>
+                <span class="post"> Web Designer </span>
+            </div>
+            <ul class="social">
+                <li><a href="https://www.facebook.com/profile.php?id=100012512077239" class="fa fa-facebook"></a></li>
+                <li><a href="" class="fa fa-twitter"></a></li>
+                <li><a href="" class="fa fa-google-plus"></a></li>
+                <li><a href="www.linkedin.com/in/raj-kumar-web-designer
+" class="fa fa-linkedin"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="col-md-3 col-sm-6">
+        <div class="our-team">
+            <div class="pic">
+                <img src="/Users/prash/Downloads/Graphex-Club-Web-master/Images/dek.png" >
+
+            </div>
+            <div class="team-content">
+                <h3>TEST SUBJECTr</h3>
+                <span class="post"> Web Designer </span>
+            </div>
+            <ul class="social">
+                <li><a href="https://www.facebook.com/profile.php?id=100012512077239" class="fa fa-facebook"></a></li>
+                <li><a href="" class="fa fa-twitter"></a></li>
+                <li><a href="" class="fa fa-google-plus"></a></li>
+                <li><a href="www.linkedin.com/in/raj-kumar-web-designer
+" class="fa fa-linkedin"></a></li>
+            </ul>
+        </div>
+    </div>
+
+    
+</div>
+</div>
+
+</div>
+</body>
+</html>
